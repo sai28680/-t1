@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>ระบบสมัครเข้าโรงเรียนสายธรรทจัทร์</h2>
+
+<p>ระบบสมัครเข้าโรงเรียนสายธรรทจัทร์</p>
+
+<p>ชื่อ-นามสกุลของนักเรียน</p>
+
+<form action="/action_page.php">
+  <label for="fname">ชื่อ:</label><br>
+  <input type="text" id="fname" name="fname" value="คำนำหน้า+ชื่อจริง"><br>
+  <label for="lname">นามสกุล:</label><br>
+  <input type="text" id="lname" name="lname" value="นามสกุล"><br><br>
+</form> 
+
+<p>เพศของนักเรียน:</p>
+
+<form action="/action_page.php">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">ชาย</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">หญิง</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">อี่นๆ</label><br><br>
+</form> 
+
+<p>วัน,เดือน,ปี เกิดของนักเรียน</p>
+
+<form action="/action_page.php">
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+</form>
+
+<p>ศาสนาของนักเรียน:</p>
+<form action="/action_page.php">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">พุทธศาสนา</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">คริสต์</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">อิสลาม</label><br><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">อี่นๆ</label><br><br>
+</form>
+
+<p>                                                                                                                                                    .</p>
+<p>เลขบัตรประชาชนของนักเรียน:</p>
+
+<form action="/action_page.php">
+  <label for="quantity">เลขบัตรประชาชน 13 หลัก:</label>
+  <input type="number" id="quantity" name="quantity" min="1000000000000" max="9999999999999">
+</form>
+
+<p>                                                                                                                                                    .</p>
+  <p>ชื่อ-นามสกุลของผู้ปกครอง</p>
+
+  <form action="/action_page.php">
+    <label for="fname">ชื่อ:</label><br>
+    <input type="text" id="fname" name="fname" value="คำนำหน้า+ชื่อจริง"><br>
+    <label for="lname">นามสกุล:</label><br>
+    <input type="text" id="lname" name="lname" value="นามสกุล"><br><br>
+  </form> 
+
+  <p>เพศของผู้ปกครอง:</p>
+
+  <form action="/action_page.php">
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">ชาย</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+    <label for="css">หญิง</label><br>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">อี่นๆ</label><br><br>
+  </form> 
+
+  <p>วัน,เดือน,ปี เกิดของผู้ปกครอง</p>
+  
+  <form action="/action_page.php">
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
+  </form>
+
+  <p>ศาสนาของผู้ปกครอง:</p>
+<form action="/action_page.php">
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="html">พุทธศาสนา</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">คริสต์</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">อิสลาม</label><br><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="javascript">อี่นๆ</label><br><br>
+</form>
+
+  <p>                                                                                                                                                    .</p>
+ <p>เลขบัตรประชาชนของผู้ปกครอง:</p>
+
+<form action="/action_page.php">
+  <label for="quantity">เลขบัตรประชาชน 13 หลัก:</label>
+  <input type="number" id="quantity" name="quantity" min="1000000000000" max="9999999999999">
+</form>
+
+  <p>                                                                                                                                                    .</p>
+<p>email ของนักเรียน</p>
+
+<form action="/action_page.php">
+  <label for="email">กรุรากรอก email:</label>
+  <input type="email" id="email" name="email">
+</form>
+<p>                                                                                                                                                    .</p>
+<p>email ของผู้ปกครอง</p>
+
+<form action="/action_page.php">
+  <label for="email">กรุรากรอก email:</label>
+  <input type="email" id="email" name="email">
+</form>
+<p>                                                                                                                                                    .</p>
+<p>เบอร์โทรศัพท์ของนักเรียน</p>
+
+<form action="/action_page.php">
+  <label for="phone">กรุรากรอกเบอร์โทรศัพท์:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-456-7899" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+  <small>ตัวอย่าง: 123-456-7899</small><br><br>
+</form>
+<p></p>
+<p>เบอร์โทรศัพท์ของผู้ปกครอง</p>
+
+<form action="/action_page.php">
+    <label for="phone">กรุรากรอกเบอร์โทรศัพท์:</label><br><br>
+    <input type="tel" id="phone" name="phone" placeholder="123-456-7899" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+    <small>ตัวอย่าง: 123-456-7899</small><br><br>
+  </form>
+
+  <p>ที่อยู่ปัจจุบัน:</p>
+
+<form action="/action_page.php">
+  <label for="fname">บ้านเลขที่:</label><br>
+  <input type="text" id="fname" name="fname" value="บ้านเลขที่"><br>
+  <label for="fname">ตำบล:</label><br>
+  <input type="text" id="fname" name="fname" value="ตำบล"><br>
+  <label for="fname">อำเภอ:</label><br>
+  <input type="text" id="fname" name="fname" value="อำเภอ"><br>
+  <label for="fname">จังหวัด:</label><br>
+  <input type="text" id="fname" name="fname" value="จังหวัด"><br>
+  <p>                                                                                                  .</p>
+</form> 
+
+<p>วิธีที่นักเรียนใช้เดินทางมาโรงรียน:</p>
+
+<form action="/action_page.php">
+  <label for="fname">กรอกวิธีการ:</label><br>
+  <input type="text" id="fname" name="fname" value="เช่น รถยนต์"><br>
+  <p>                                                                                                  .</p>
+</form> 
+
+</body>
+</html>
